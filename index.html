@@ -1,79 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6485bba8c4.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>FITLIFE</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <div class="big-wrapper light">
-        <img src="./img/shape.png" alt="" class="shape" />
+</head>
 
-        <header>
-          <div class="container">
-            <div class="logo">
-              <img src="b147_3-512.webp" alt="Logo" />
-              <h3>FITLIFE</h3>
+<body>
+    <section id="#title">
+        <div id="titlebox" class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href=""><img src="images/fitness.png" alt=""> fitlife</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-items">
+                            <a class="nav-link link1" href="">About-us</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link link2" href="signin.html">Sign-in</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div id="titlerow" class="container-fluid">
+                <div id="titlerowcontent" class="row">
+                    <div id="titlecol1" class="col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="head1">Welcome to fitlife.</h1>
+                        <p class="para1">We provide scientific diet-plans and workouts based on your BMI or body mass
+                            index.</p>
+                        <p class="para1">Get started with your fitlife from here.</p>
+                        <a class="btn btn-outline-dark btn-lg switch1" href="signin.html" role="button"><i
+                            class="fa-solid fa-heart"></i>
+                        sign-in</a>
+                        <a class="btn btn-dark btn-lg switch1" href="signup.html" role="button"><i class="fa-solid fa-dumbbell"></i>
+                            sign-up</a>
+                        <!-- <button type="button"  class="btn btn-outline-dark btn-lg switch1"><i
+                                class="fa-solid fa-heart"></i>
+                            sign-in</button>
+                        <button type="button" class="btn btn-dark btn-lg switch1"><i class="fa-solid fa-dumbbell"></i>
+                            sign-up</button> -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="titleimage1">
+                            <img class="running" src="images/yoga1.jpg" alt="dumbell">
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="links">
-              <ul>
-                <!--<li><a href="#">Features</a></li>-->
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#" class="btn">Sign up</a></li>
-              </ul>
+
+    <section id="services">
+        <div class="container-fluid">
+            <div class="servicehead">
+                <h3 class="head2">Our services...</h3>
             </div>
-
-            <div class="overlay"></div>
-
-            <div class="hamburger-menu">
-              <div class="bar"></div>
-            </div>
-          </div>
-        </header>
-
-        <div class="showcase-area">
-          <div class="container">
-            <div class="left">
-              <div class="big-title">
-                <h1>Welcome to Fitlife,</h1>
-                <h1>Start Exploring now.</h1>
-              </div>
-              <p class="text">
-                We provide a proper scientific diet plan and workouts 
-                according to your body mass ratio. Start your Fitlife
-                from here !
-                Sign in to continue.
-              </p>
-              <div class="cta">
-                <a href="#" class="btn">Sign in</a>
-              </div>
-            </div>
-
-            <div class="right">
-              <img src="b147_3-512.webp" alt="Person Image" class="person" />
-            </div>
-          </div>
         </div>
 
-        <div class="bottom-area">
-          <div class="container">
-            <button class="toggle-btn">
-              <i class="far fa-moon"></i>
-              <i class="far fa-sun"></i>
-            </button>
-          </div>
+        <div id="service-container" class="container-fluid">
+            <div id="service-row" class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 service-col">
+
+                    <div class="service-img-div">
+                        <img class="serviceimg" src="images/dumbell.png" alt="run">
+                    </div>
+                    <div class="service-text">
+                        <h3 class="servicetype">workouts..</h3>
+                        <p>We provide scientific workout plans based on your body mass ratio.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 service-col">
+
+                    <div class="service-img-div">
+                        <img class="serviceimg" src="images/salad.png" alt="food">
+                    </div>
+                    <div class="service-text">
+                        <h3 class="servicetype">Diet..</h3>
+                        <p>We provide scientific healthy diet plans based on your body mass ratio.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </main>
+        </div>
 
-    <!-- JavaScript Files -->
+    </section>
 
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="./app.js"></script>
-  </body>
+    <section id="how">
+        <div class="container-fluid">
+            <div class="howdiv">
+                <h3 class="head3">So How does it work?...</h3>
+            </div>
+        </div>
+
+        <div class="container-fluid steps12">
+            <div class="row row2">
+                <div class="col-lg-6 col-md-6 col-sm-12 step-col">
+                    <div>
+                        <img class="stepimg" src="images/login.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 step-col2">
+                    <div>
+                        <h4 class="step1">Step-1</h4>
+                        <h2 class="step-text">Login</h2>
+                        <p>First login to your account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid steps12">
+            <div class="row row2">
+                <div class="col-lg-6 col-md-6 col-sm-12 step-col">
+                    <div>
+                        <img class="stepimg" src="images/smartphone.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 step-col2">
+                    <div>
+                        <h4 class="step1">Step-2</h4>
+                        <h2 class="step-text">Start using</h2>
+                        <p>Simply start following the workout and diet plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="startnow">
+        <div class="container-fluid">
+            <div class="row startrow">
+                <div class="col-lg-6 col-md-6 col-sm-12 colstart">
+                    <div class="start2">
+                        <h1>Start your fitness journey with <span>fitlife!</span> ...</h1>
+                        <a class="btn btn-outline-dark btn-lg switch1" href="signin.html" role="button"><i
+                            class="fa-solid fa-heart"></i>
+                        sign-in</a>
+                        <a class="btn btn-dark btn-lg switch1" href="signup.html" role="button"><i class="fa-solid fa-dumbbell"></i>
+                            sign-up</a>
+                        <!-- <button type="button"  class="btn btn-outline-dark btn-lg switch1"><i
+                                class="fa-solid fa-heart"></i>
+                            sign-in</button>
+                        <button type="button"  class="btn btn-dark btn-lg switch1"><i class="fa-solid fa-dumbbell"></i>
+                            sign-up</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 colstart">
+                    <div class="start3">
+                        <img class="startimg" src="images/victor-freitas-WvDYdXDzkhs-unsplash.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="endfooter">
+        <div class="container-fluid">
+            <div class="row footrow">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <a class="navbar-brand foot-text" href=""><img src="images/fitness.png" alt=""> fitlife</a>
+                    <p>Fitlife provides proper diet and workout plans based on the persons BMI.</p>
+                </div>
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4 class="foot-text">Contact us</h4>
+                    <p class="foot-text">9999999999</p>
+                    <p class="foot-text">rajarshinandan@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <h4 class="foot-text">Country</h4>
+                    <p><img class="foot-text" src="images/india.png" alt=""> india</p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    
+                    <p class="foot-text">© All rights reserved.fitlife</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
 </html>
